@@ -1,9 +1,9 @@
 {
     "serverstatus":"true",
-    "noticemode":"false",
+    "noticemode":"true",
     "dataclearmode":"false",
     "servermeassage":"Wait We Are Working On a new Update ! Just wait few more times 🙂",
     "libs":"https://github.com/kaushikhaxor/KAUSHIK/raw/main/Mrkaushikhaxor.zip",
     "notice_title":"Telegram Dm - @Mrkaushikhaxor",
-    "notice_body":"Play Safe"
+    "notice_body":""
 }
