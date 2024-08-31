@@ -1,7 +1,7 @@
 /*
  *  @date   : 2020/02/04
  *  @Creator : @Mrkaushikhaxor
- *  Prince Kaushii
+ *  Prince Kaushik
  */
 #include <jni.h>
 #include <string>
@@ -509,7 +509,7 @@ FRotator ToRotator(FVector local, FVector target) {
 /*
  *  @date   : 2020/02/04
  *  @Creator : @Mrkaushikhaxor
- *  Prince Kaushii
+ *  Prince Kaushik
  */
 bool isInsideFOVs(int x, int y) {
     if (!Config.AimBot.Enable)
@@ -2708,7 +2708,7 @@ return 0;
 /*
  *  @date   : 2020/02/04
  *  @Creator : @Mrkaushikhaxor
- *  Prince Kaushii
+ *  Prince Kaushik
  */
  
  /*
