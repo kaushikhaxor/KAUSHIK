@@ -1,1 +1,5 @@
-PATCH_LIB("libUE4.so","0x45F9300","00 00 A0 E3 1E FF 2F E1");
+PATCH_LIB("libanogs.so","0x3C1564","h 00 20 70 47");
+PATCH_LIB("libanogs.so","0xDFA50","h 00 20 70 47");
+PATCH_LIB("libanogs.so","0xDC3C0","h 00 20 70 47");
+PATCH_LIB("libanogs.so","0x17691C","h 00 20 70 47");
+PATCH_LIB("libanogs.so","0x2C31C6","h 00 20 70 47");
