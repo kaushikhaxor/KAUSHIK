@@ -1,0 +1,1 @@
+PATCH_LIB("libUE4.so", "0xE0970", "00 00 80 D2 C0 03 5F D6");
