@@ -1,0 +1,48 @@
+
+ if (ShowDamazeBykaushik){
+	
+    if (localPlayer->bIsWeaponFiring) {
+
+        ((ASTExtraPlayerController *) (localPlayer->Controller))->GameReplayType = 2;
+
+    } else {
+
+        ((ASTExtraPlayerController *) (localPlayer->Controller))->GameReplayType = 1;
+    }
+} 
+	  if (ShowDamazeBykaushik){
+	auto object = UObject::GetGlobalObjects();
+    for (int i = 0; i < object.Num(); i++){
+    auto Object = object.GetByIndex(i);
+    if (isObjectInvalid(Object))
+        continue; 
+	 
+                                 if (Object->IsA(UDamageNumberWidget::StaticClass()))
+                                 {
+                                     auto LuaDamageInfo = (UDamageNumberWidget *) Object;
+                                     auto DamageNumberConfigArray = LuaDamageInfo->DamageNumberConfigArray;
+                                     for (int x = 0; x < DamageNumberConfigArray.Num(); ++x)
+                                     {
+                                         FDamageNumberConfig & DamageNumberConfig = DamageNumberConfigArray[x];
+              
+				 static float kaushik = 0.0f;
+              float r = cos(kaushik) * .5f + .5f;
+              float g = cos(kaushik - 2.f * 3.14 / 3.f) * .5f + .5f;
+              float b = cos(kaushik - 4.f * 3.14 / 3.f) * .5f + .5f;
+              if (kaushik >= FLT_MAX) {
+                  kaushik = 0.0f;
+              } else {
+                  kaushik += 0.02f;
+              }    
+                                         DamageNumberConfig.HeadDrawColor = FLinearColor(r, g, b, 1.f); // color
+                                         DamageNumberConfig.BodyDrawColor = FLinearColor(r, g, b, 1.f); // color
+                                         DamageNumberConfig.HeadDrawOutlineColor = FLinearColor(r, g, b, 1.f); // color
+                                         DamageNumberConfig.BodyDrawOutlineColor = FLinearColor(r, g, b, 1.f); // color
+                                         DamageNumberConfig.UpScaleFactor = 4.f; // for size
+                                         DamageNumberConfig.ScaleRandOffset = 4.f; // for size
+                             
+                                     }
+                                 }
+
+                             }
+                                }
