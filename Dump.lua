@@ -1,11 +1,4 @@
--- Creator -aviwa
--- Date - 2/6/2022
-
---GLOBAL INIT
 GAME_LIBS = {}
-
-
-
 
 function ReadInt32(addr)
     local from = {{address = addr, flags=4}};
