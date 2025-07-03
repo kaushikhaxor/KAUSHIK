@@ -1,0 +1,117 @@
+PATCH_LIB("libanogs.so","0xF0978","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libanogs.so","0xF7710","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libanogs.so","0x158860","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libanogs.so","0x1E90EC","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libanogs.so","0x14CC9C","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libanogs.so","0x131064","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libanogs.so","0x243D50","00 00 80 D2 C0 03 5F D6"); // Online Fix
+PATCH_LIB("libanogs.so","0xE3C3C","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libanogs.so","0x166C24","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libanogs.so","0x3E8F50","00 00 80 D2 C0 03 5F D6");//Flag
+PATCH_LIB("libanogs.so","0x3E8F80","00 00 80 D2 C0 03 5F D6");//Flag
+PATCH_LIB("libanogs.so","0x3E8F68","00 00 80 D2 C0 03 5F D6");//Flag
+PATCH_LIB("libanogs.so","0xEDD1C","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libanogs.so","0xEDDA0","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libanogs.so","0xEDDA8","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libanogs.so","0xEDD00","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libanogs.so","0xEDD98","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libanogs.so","0xEDD9C","00 00 80 D2 C0 03 5F D6");
+
+
+
+//By - @Mrkaushikhaxor
+
+
+//By - @Mrkaushikhaxor
+PATCH_LIB("libanogs.so","0x133014","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libanogs.so","0x1622B0","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libanogs.so","0x168A58","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libanogs.so","0x1B0238","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libanogs.so","0x3DD12C","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libanogs.so","0x3DD1A4","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libUE4.so","0xAC1F850","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libUE4.so","0xAC1F040","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libUE4.so","0xAC1F030","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libUE4.so","0xAC1EFE0","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libUE4.so","0xAC1F0C0","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libUE4.so","0x0B5900E8","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libUE4.so","0x0B464728","00 00 80 D2 C0 03 5F D6");	
+PATCH_LIB("libUE4.so","0x0B4AB1A8","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libUE4.so","0x0B4B88B0","00 00 80 D2 C0 03 5F D6");	
+PATCH_LIB("libUE4.so","0x0B4CF668","00 00 80 D2 C0 03 5F D6");	
+PATCH_LIB("libUE4.so","0x0B05FFA8","00 00 80 D2 C0 03 5F D6");	
+PATCH_LIB("libUE4.so","0x0B060358","00 00 80 D2 C0 03 5F D6");	
+PATCH_LIB("libUE4.so","0x0B060FB8","00 00 80 D2 C0 03 5F D6");	
+PATCH_LIB("libUE4.so","0x0B2AE808","00 00 80 D2 C0 03 5F D6");	
+PATCH_LIB("libUE4.so","0x0B2B9880","00 00 80 D2 C0 03 5F D6");	
+PATCH_LIB("libUE4.so","0x0B2D2588","00 00 80 D2 C0 03 5F D6");	
+PATCH_LIB("libUE4.so","0x54E876C","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libUE4.so","0x54E8774","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libUE4.so","0x54E9070","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libUE4.so","0x54E934C","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libUE4.so","0x54E9488","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libUE4.so","0x54E9490","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libUE4.so","0x54E9540","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libUE4.so","0x54E9930","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libUE4.so","0x54E9938","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libUE4.so","0x54E9B88","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libUE4.so","0x54E9B90","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libUE4.so","0x54EF2C4","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libUE4.so","0x54EF2CC","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libUE4.so","0x54EFDE8","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libUE4.so","0x54EFDF0","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libUE4.so","0x54EFE6C","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libUE4.so","0x54EFE6C","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libUE4.so","0x54F16D4","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libUE4.so","0x54F2C2C","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libUE4.so","0x54F2D20","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libUE4.so","0x54F3540","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libUE4.so","0x54F43C8","00 00 80 D2 C0 03 5F D6");
+
+
+
+//By - @Mrkaushikhaxor
+//By - @Mrkaushikhaxor
+
+PATCH_LIB("libAntsVoice.so","0x892EC","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libAntsVoice.so","0x88318","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libAntsVoice.so","0x88238","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libAntsVoice.so","0x88138","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libAntsVoice.so","0x88040","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libAntsVoice.so","0x87F34","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libAntsVoice.so","0x87DE4","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libAntsVoice.so","0x87950","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libAntsVoice.so","0x873FC","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libAntsVoice.so","0x86EF8","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libAntsVoice.so","0x865E4","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libAntsVoice.so","0x85ED8","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libAntsVoice.so","0x85D8C","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libAntsVoice.so","0x85C2C","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libAntsVoice.so","0x85B6C","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libAntsVoice.so","0x85A14","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libAntsVoice.so","0x85694","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libAntsVoice.so","0x85544","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libAntsVoice.so","0x8526C","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libAntsVoice.so","0x8526C","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libAntsVoice.so","0x446720","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libAntsVoice.so","0x44A98","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libAntsVoice.so","0x44A990","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libAntsVoice.so","0x44DB30","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libAntsVoice.so","0x446718","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libAntsVoice.so","0x446708","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libAntsVoice.so","0x446710","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libAntsVoice.so","0x446700","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libAntsVoice.so","0x4466C8","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libAntsVoice.so","0x4466B8","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libAntsVoice.so","0x55F4C","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libAntsVoice.so","0x573F4","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libAntsVoice.so","0x57324","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libAntsVoice.so","0x577A8","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libAntsVoice.so","0x57884","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libAntsVoice.so","0x57980","00 00 80 D2 C0 03 5F D6");
+
+//By - @Mrkaushikhaxor
+
+//By - @Mrkaushikhaxor
+
+//By - @Mrkaushikhaxor
